@@ -38,7 +38,11 @@ Có. Kết quả kiểm tra từ `results/template_check.json` xác nhận chat 
 {"intent": "doi_tra", "urgency": "trung_binh", "product": "balo laptop", "sentiment": "trung_tinh"}<|im_end|>
 ```
 
-Toàn bộ phần chỉ dẫn hệ thống (system prompt), câu hỏi của khá## 3. Ba baseline (NB2 — đo TRƯỚC khi train)
+Toàn bộ phần chỉ dẫn hệ thống (system prompt), câu hỏi của khách hàng và các thẻ phân cách hội thoại đều đã được gán nhãn `-100` (masked out) thành công. Chỉ có duy nhất phần phản hồi JSON của assistant mới được tính loss.
+
+---
+
+## 3. Ba baseline (NB2 — đo TRƯỚC khi train)
 
 | Run                         | target | regression | format | latency (ms) |
 | --------------------------- | :----: | :--------: | :----: | :----------: |
