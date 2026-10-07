@@ -1,0 +1,2 @@
+# Ensure jsonl datasets always preserve LF line endings across Windows and Linux
+*.jsonl text eol=lf
