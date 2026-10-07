@@ -38,3 +38,8 @@ hf_cache/
 .idea/
 .vscode/
 *.swp
+
+# Ignore downloaded colab archives
+colab_full_results*
+results/colab_full_results*
+*.zip
